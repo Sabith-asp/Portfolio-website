@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+
+<body style="background-image: url(contact\ bg.jpg)">
+    <nav>
+        <div class="logo">
+            Portfolio.
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+         <i class="fas fa-bars"></i>
+         </label>
+        <ul>
+            <li><a class="active" href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Education.html">EDUCATION</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+            <li><a href="Follow me.html">FOLLOW ME</a></li>
+        </ul>
+    </nav>
+    <div>
+        <h1 style="text-align:left">Contact Me</h1>
+        <section>
+            <div class="container1">
+                <form action="https://formspree.io/mlezjabe" method="POST" id="my-form">
+
+                    <div class="form-group">
+                        <label for="firstName"> First Name</label>
+                        <input type="text" id="firstName" name="firstName">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="latsName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="massage">Massage</label>
+                        <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div id="status"></div>
+        </section>
+    </div>
+
+</body>
+
+</html>
